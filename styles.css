@@ -1,0 +1,51 @@
+html, body{
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background-color: #121212;
+}
+
+
+.lights{
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+.lights > div{
+    margin: 0 auto;
+    height: 25vh;
+    width: 25vh;
+    background-color: whitesmoke;
+    border-radius: 50%;
+}
+
+#counter{
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-size: 100px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    line-height: 25vh;
+}
+
+
+
+
+
+.controls{
+    margin: 20px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+}
+.controls > button{
+    margin-right: 15px;
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
